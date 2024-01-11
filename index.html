@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="body">
+    <header>
+        <nav class="fixed-navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><span><i class="fa-solid fa-naira-sign"></i></span>Narayan</label>
+            <ul>
+                
+                <li><a href="#" onclick="closeNav()">Home</a></li>
+                <li><a href="#about" onclick="closeNav()">About</a></li>
+                <li><a href="#skills" onclick="closeNav()">Skills</a></li>
+                <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+                <li><a href="#contact" onclick="closeNav()">Contact Me</a></li>
+
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                <div id="intro">Hii, I am <span class="orange">Aditya Narayan</span></div>
+                <div>
+                    <span id="element"></span>
+                </div>
+                
+                <div class="social-media">
+                    <a href="https://www.instagram.com/_narayan_1203/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-narayan-27064b229"><i class="fab fa-linkedin"></i></a>
+               </div>
+                <div class="buttons">
+                    <a href="CV_2024011015451845.pdf" download class="btn">Download Resume</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Images/My-removebg-preview.png">
+            </div>
+        </section>
+        <hr>
+        <!------------About------------->
+        <section id="about">
+            <br>
+            <div class="container sec-title">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/my3.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h2><span>About</span> Me</h2>
+                        <p class="aboutPara">
+                            Enthusiastic and detail-oriented pursuing MCA from DY Patil University. Eager to leverage acquired skills in HTML, CSS, JavaScript, and React js to contribute effectively to a dynamic web development team.
+During my academic journey, I gained hands-on experience in building responsive and user-friendly websites through coursework and personal projects. Proficient in coding and debugging, with a keen eye for design principles.
+ Seeking an opportunity to further enhance my skills and contribute to innovative web solutions.
+                        </p>
+                        <div class="tab-titles">
+
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Pursuing</span><br>MCA from DY Patil University</li>
+                                <li><span>2022</span><br>BCA from Birla Institute Of Technology</li>
+                                <li><span>2019</span><br>12th from Shivam International School</li>
+                                <li><span>2016</span><br>10th from Delhi Model Public School</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>AWS</span><br>from AcmeGrade</li>
+                                <li><span>Web Development</span><br>from Naresh I Technologies</li>
+                                <li><span>C/C++ Programming</span><br>from Corsera</li>
+                                <li><span>TruBot Designer</span><br>from NASSCOM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!------------Skills------------>
+        <section id="skills">
+            <h2 class="sec-title">My <span>Skills</span></h2>
+            <div class="skills-main">
+                <div class="skills-left">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>HTML</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>CSS</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>JavaScript</p>
+                            <p>65%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="javascript"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>PHP</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="PHP"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>MySQL</p>
+                            <p>50%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="sql"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <h3>Professional Skills</h3>
+                    <div class="professional">
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="90"></div>
+                            <div class="text">
+                                <big>90%</big>
+                                <small>Team work</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="55"></div>
+                            <div class="text">
+                                <big>55%</big>
+                                <small>Creativity</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="80"></div>
+                            <div class="text">
+                                <big>80%</big>
+                                <small>Problem Solving</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="75"></div>
+                            <div class="text">
+                                <big>75%</big>
+                                <small>Communication</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="60"></div>
+                            <div class="text">
+                                <big>60%</big>
+                                <small>Soft-Skills</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="75"></div>
+                            <div class="text">
+                                <big>75%</big>
+                                <small>Networking</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <!------------Projects------------>
+        <section id="projects">
+            <h2 class="sec-title">My <span>Projects</span></h2>
+            <div class="project-container">
+                <div class="project-box" id="project-box1">
+                    <img src="/Images/shoot.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Shooting Game</h4>
+                        <p>Shoot the bird and score the points.</p>
+                        <a href="ShootingGame/ShG.html">Play now!</a>
+                    </div>
+                </div>
+
+                <div class="project-box" id="project-box2">
+                    <img src="/Images/SnakeGame.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Snake Game</h4>
+                        <p>Feed the snake and don't bump his head anywhere.</p>
+                        <a href="SnakeGame/Snake.html">Play now!</a>
+                    </div>
+                </div>
+                <div class="project-box" >
+                    <img src="/Images/snakeWater.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Snake Water and Gun</h4>
+                        <p>Tossing the coin is old fashioned now. Let's take decision in a new way.</p>
+                        <a href="Snake,Water&Gun/SWG.html">Play now!</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="project-container">
+                <div class="project-box" id="project-box3">
+                    <img src="/Images/TTV.png" alt="">
+                    <div class="project-layer">
+                        <h4>Text to Voice Converter</h4>
+                        <p>Write anything and listen it in any accent. </p>
+                        <a href="TTV/TTV.html">Play now!</a>
+                    </div>
+                </div>
+
+                <div class="project-box" id="project-box4">
+                    <img src="/Images/Catch.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Catch me if you can!</h4>
+                        <p>Catch that creature by accepting it's challenge.</p>
+                        <a href="catchMe/CM.html">Play now!</a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="/Images/fluffyBird.JPG" alt="">
+                    <div class="project-layer">
+                        <h4>Bird Game</h4>
+                        <p>Avoid the pillars and increase the score.</p>
+                        <a href="BirdGame/BG.html">Play now!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--------Contact Me---------->
+        <section id="contact">
+            <h2 class="sec-title"><span>Contact</span> Me</h2>
+            <div class="connectContact">
+                <div class="connect1">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <h4>Call Me On</h4>
+                    <p>+91-8210298085</p>
+                </div>
+                <div class="connect2">
+                    <div class="icon"><i class="fa fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <p>adn1203@gmail.com</p>
+                </div>
+                
+            </div>
+            <h3><u>SEND ME A MESSAGE</u></h3>
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="number" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Message Subject">
+                </div>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <span id="msg"></span>
+                <input type="submit" value="Send Message" class="btn">
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social">
+                <h3>Follow Me</h3>
+                <a href="https://www.linkedin.com/in/aditya-narayan-27064b229"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_narayan_1203/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Narayan's Portfolio. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <!--------Navigation-------->
+    <script>
+
+        function closeNav() {
+            // Simulate a click on the checkbox to close the menu
+            document.getElementById('check').checked = false;
+        }
+    </script>
+    <!--------Home-------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['a Student','a Web Developer', 'a geek coder', 'a Web Designer'],
+            loop: true,
+            typeSpeed: 80,
+        });
+
+
+    </script>
+    <!--------About-------->
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.querySelectorAll(".tab-links");
+            var tabcontents = document.querySelectorAll(".tab-contents");
+
+            for (const tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (const tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            // Add the "active-link" class to the clicked tab link
+            document.querySelector(`.tab-links[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+
+            // Add the "active-tab" class to the selected tab content
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <!------Skills Right Section--------->
+    <script>
+        function handleScrollAnimations() {
+    const skillSection = document.getElementById('skills');
+    const windowHeight = window.innerHeight;
+
+    // Function to check if an element is in the viewport
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.bottom <= (windowHeight || document.documentElement.clientHeight)
+        );
+    }
+
+    // Function to start animations when an element is in the viewport
+    function startAnimations() {
+        const circles = document.querySelectorAll('.circle');
+
+        circles.forEach(elem => {
+            if (isInViewport(elem)) {
+                var dots = elem.getAttribute("data-dots");
+                var marked = elem.getAttribute("data-percent");
+                var percent = Math.floor(dots * marked / 100);
+                var points = "";
+                var rotate = 360 / dots;
+                for (let i = 0; i < dots; i++) {
+                    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
+                }
+                elem.innerHTML = points;
+                const pointsMarked = elem.querySelectorAll('.points');
+                for (let i = 0; i < percent; i++) {
+                    pointsMarked[i].classList.add('marked')
+                }
+            }
+        });
+    }
+
+    // Attach event listener to window scroll
+    window.addEventListener('scroll', startAnimations);
+
+    // Trigger animations on initial load
+    startAnimations();
+}
+
+// Call the function to initiate scroll animations
+handleScrollAnimations();
+
+    </script>
+
+
+    <!--------Contact Me-------->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcTPvlJE85OpVWmshh-i0ReNUbL6L2iCsG2sycWFO84w-Q6YNWQ6jNbK9hLOJqmib8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
