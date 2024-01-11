@@ -425,7 +425,9 @@ h2 {
     .tab-contents {
         font-size: 20px;
     }
-    
+    h2{
+      font-size:2.2rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -672,7 +674,7 @@ h2>span {
     }
     #skills>h2{
         padding-left: 31%;
-        font-size: 2rem;
+        
     }
     .skills-main{
         row-gap: 10%;
