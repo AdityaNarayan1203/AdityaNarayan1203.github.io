@@ -309,7 +309,7 @@ main hr {
 
 h2 {
     padding-bottom: 10px;
-    
+    text-align: center;
 }
 
 #about h2 {
@@ -399,7 +399,8 @@ h2 {
         flex-basis: 60%;
     }
     .about-col-2 {
-        flex-basis: 100%;
+        flex-basis: 90%;
+        text-align: justify;
     }
 }
 
@@ -426,8 +427,9 @@ h2 {
         font-size: 20px;
     }
     h2{
-      font-size:2.2rem;
-    }
+        font-size:2rem;
+        text-align: justify;
+      }
 }
 
 @media only screen and (max-width: 600px) {
@@ -453,6 +455,7 @@ h2 {
 #skills>h2 {
     font-size: 3.0rem;
     padding-left: 43%;
+    
 }
 
 #skills {
@@ -681,6 +684,7 @@ h2>span {
     }
     #skills h3{
         padding-bottom: 15px;
+        
     }
 }
 
@@ -776,13 +780,14 @@ h2>span {
     #projects{
         height: 100%;
     }
+    
     #project h2{
         font-size: 2rem;
     }
     #projects .sec-title {
         padding-left:25%;
     }
-
+   
     .project-container {
         grid-template-columns: 1fr; 
         gap: 2rem;
@@ -921,6 +926,7 @@ textarea {
         row-gap: 12%;
         padding-bottom: 10%;
     }
+    
     #contact h3{
         color:#2c3e50;
     }
