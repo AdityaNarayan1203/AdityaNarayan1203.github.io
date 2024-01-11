@@ -436,6 +436,12 @@ h2 {
     #about {
         height: auto;
     }
+    .about-col-2 {
+        font-size: 18px;
+        flex-basis: 90%;
+        text-align: justify;
+        margin:auto;
+    }
 }
 
 /* Adjust the font size for smaller screens */
