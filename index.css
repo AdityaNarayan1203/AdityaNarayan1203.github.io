@@ -437,7 +437,7 @@ h2 {
         height: auto;
     }
     .aboutPara{
-        text-align: center;
+        text-align: justify;
         margin: auto;
     }
 }
