@@ -398,10 +398,7 @@ h2 {
     .about-col-1 {
         flex-basis: 60%;
     }
-    .about-col-2 {
-        flex-basis: 90%;
-        text-align: justify;
-    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -421,6 +418,9 @@ h2 {
     }
     .about-col-2 {
         font-size: 18px;
+        flex-basis: 90%;
+        text-align: justify;
+        margin:auto;
     }
     .tab-links,
     .tab-contents {
