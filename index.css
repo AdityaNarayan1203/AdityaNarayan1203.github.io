@@ -416,11 +416,10 @@ div h2 {
         margin: auto;
         height: auto;
     }
-    .about-col-1, .about-col-2 {
-        flex-basis: 100%;
-    }
+    
     .about-col-1 {
         margin-bottom: 30px;
+        flex-basis: 100%;
     }
     .about-col-1 img{
         width: 100%;
