@@ -19,7 +19,7 @@
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
             </label>
-            <label class="logo"><span><i class="fa-solid fa-naira-sign"></i></span>Narayan</label>
+            <label class="logo"><span><i class="fa-solid fa-naira-sign"></i></span><span class="name">Narayan</span></label>
             <ul>
                 
                 <li><a href="#" onclick="closeNav()">Home</a></li>
@@ -36,7 +36,7 @@
     <main>
         <section class="firstSection" id="home">
             <div class="leftSection">
-                <div id="intro">Hii, I am <span class="orange">Aditya Narayan</span></div>
+                <div id="intro">Hello, I'm <span class="orange">Aditya Narayan</span></div>
                 <div>
                     <span id="element"></span>
                 </div>
@@ -64,11 +64,13 @@
                     </div>
                     <div class="about-col-2">
                         <h2><span>About</span> Me</h2>
-                        <p class="aboutPara">
-                            Enthusiastic and detail-oriented pursuing MCA from DY Patil University. Eager to leverage acquired skills in HTML, CSS, JavaScript, and React js to contribute effectively to a dynamic web development team.
-During my academic journey, I gained hands-on experience in building responsive and user-friendly websites through coursework and personal projects. Proficient in coding and debugging, with a keen eye for design principles.
- Seeking an opportunity to further enhance my skills and contribute to innovative web solutions.
-                        </p>
+                        <div class="aboutPara">
+                            <p>
+                                Enthusiastic and detail-oriented pursuing MCA from DY Patil University. Eager to leverage acquired skills in HTML, CSS, JavaScript, and React js to contribute effectively to a dynamic web development team.
+    During my academic journey, I gained hands-on experience in building responsive and user-friendly websites through coursework and personal projects. Proficient in coding and debugging, with a keen eye for design principles.
+     Seeking an opportunity to further enhance my skills and contribute to innovative web solutions.
+                            </p>
+                        </div>
                         <div class="tab-titles">
 
                             <p class="tab-links active-link" onclick="opentab('education')">Education</p>
@@ -87,7 +89,7 @@ During my academic journey, I gained hands-on experience in building responsive 
                             <ul>
                                 <li><span>AWS</span><br>from AcmeGrade</li>
                                 <li><span>Web Development</span><br>from Naresh I Technologies</li>
-                                <li><span>C/C++ Programming</span><br>from Corsera</li>
+                                <li><span>C/C++ Programming</span><br>from Coursera</li>
                                 <li><span>TruBot Designer</span><br>from NASSCOM</li>
                             </ul>
                         </div>
@@ -98,7 +100,7 @@ During my academic journey, I gained hands-on experience in building responsive 
         <hr>
         <!------------Skills------------>
         <section id="skills">
-            <h2 class="sec-title">My <span>Skills</span></h2>
+            <div><h2 class="sec-title">My <span>Skills</span></h2></div>
             <div class="skills-main">
                 <div class="skills-left">
                     <h3>Technical Skills</h3>
@@ -322,7 +324,7 @@ During my academic journey, I gained hands-on experience in building responsive 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['a Student','a Web Developer', 'a geek coder', 'a Web Designer'],
+            strings: ['a Learner','a Web Developer',  'a Web Designer','a geek coder'],
             loop: true,
             typeSpeed: 80,
         });
