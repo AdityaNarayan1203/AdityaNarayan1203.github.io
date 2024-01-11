@@ -436,11 +436,9 @@ h2 {
     #about {
         height: auto;
     }
-    .about-col-2 {
-        font-size: 18px;
-        flex-basis: 90%;
+    .aboutPara{
         text-align: justify;
-        margin:auto;
+        margin: auto;
     }
 }
 
