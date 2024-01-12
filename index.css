@@ -306,22 +306,19 @@ main hr {
 }
 /*-----------about------------*/
 #about {
+        
     margin-left: 15%;
-    
     max-width: 70vw;
+    padding: 40px 0; /* Add padding for visual appeal */
 }
 
 .sec-title {
-    padding-top: 70px;
-}
-
-div h2 {
-    padding-bottom: 10px;
-    text-align: center;
+    text-align: center; /* Center the section title */
 }
 
 #about h2 {
     font-size: 3.0rem;
+    margin-bottom: 20px; /* Add spacing below the heading */
 }
 
 .row {
@@ -333,35 +330,31 @@ div h2 {
 }
 
 .about-col-1 {
-    flex-basis: 42%;
-    
+    flex-basis: 40%;
 }
 
 .about-col-1 img {
-    width: 110%;
+    width: 100%;
     border-radius: 20px;
-
 }
 
 .about-col-2 {
     flex-basis: 50%;
     font-size: 1.2rem;
     color: white;
-    
+    text-align: justify; /* Align text to the left */
 }
-.about-col-2 h2{
-    text-align: left;
-}
-.about-col-2 p{
+
+.about-col-2 p {
     font-size: 1.2rem;
+    margin-bottom: 15px; /* Add spacing between paragraphs */
 }
+
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
 }
-.aboutPara{
-    text-align: justify;
-}
+
 .tab-links {
     margin-right: 50px;
     font-size: 25px;
@@ -402,16 +395,18 @@ div h2 {
 .tab-contents.active-tab {
     display: block;
 }
+
+/* Responsive adjustments for smaller screens */
 @media only screen and (max-width: 1300px) {
     #about {
         max-width: 70vw;
         margin: auto;
         height: auto;
     }
+
     .about-col-1 {
         flex-basis: 60%;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -420,44 +415,35 @@ div h2 {
         margin: auto;
         height: auto;
     }
-    .aboutPara{
-        padding: 0 15px;
-        
-    }
-    .about-col-1 {
-        margin-bottom: 30px;
-        flex-basis: 100%;
-    }
-    .about-col-1 img{
-        width: 100%;
-    }
+
     .about-col-2 {
         font-size: 18px;
         flex-basis: 90%;
-        text-align: justify;
+        text-align: left; /* Maintain left alignment */
         margin: auto;
     }
+
     .tab-links,
     .tab-contents {
         font-size: 20px;
     }
-    h2{
-        font-size:1rem;
-        text-align: justify;
-      }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #about {
         height: auto;
     }
-    .aboutPara{
-        text-align: justify;
-        margin: auto;
+
+    .about-col-1 {
+        flex-basis: 100%;
+        margin-bottom: 30px;
     }
 }
 
-/* Adjust the font size for smaller screens */
 @media only screen and (max-width: 480px) {
     .tab-links,
     .tab-contents {
@@ -466,11 +452,9 @@ div h2 {
 
     .tab-contents ul li span {
         font-size: 18px;
+    
     }
-}
-
-
-/*-------Skills--------*/
+}/*-------Skills--------*/
 #skills h2 {
     font-size: 3.0rem;
     
