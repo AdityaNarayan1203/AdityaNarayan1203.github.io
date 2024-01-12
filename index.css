@@ -417,7 +417,7 @@ main hr {
     }
 
     .about-col-2 {
-        font-size: 18px;
+        font-size: 15px;
         flex-basis: 90%;
         text-align: left; /* Maintain left alignment */
         margin: auto;
