@@ -910,6 +910,7 @@ textarea {
 #contact form textarea {
     width: 100%;
     resize: none;
+    height: 20vh;
 }
 #contact form .btn {
     background-color: #9B59B6;
